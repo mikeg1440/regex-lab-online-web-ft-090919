@@ -22,7 +22,7 @@ def words_five_letters_long(text)
   resp = []
   
   txt_array.each do |word|
-    # binding.pry
+    binding.pry
     if word.scan(/[a-zA-Z]{5}/).to_s == word
       resp << word
       binding.pry

@@ -22,16 +22,16 @@ def words_five_letters_long(text)
   five_lettered = []
   
   txt_array.each do |word|
-    binding.pry
+    # binding.pry
     if word.scan(/[a-zA-Z]{5}/)[0] == word
-      resp << word
-      binding.pry
+      five_lettered << word
+      # binding.pry
       
     end
   end
   
-  binding.pry
-  resp
+  # binding.pry
+  five_lettered
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)

@@ -19,7 +19,7 @@ def words_five_letters_long(text)
   
   txt_array = text.split
   
-  resp = []
+  five_lettered = []
   
   txt_array.each do |word|
     binding.pry

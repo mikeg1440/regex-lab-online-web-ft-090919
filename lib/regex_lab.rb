@@ -35,9 +35,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
 
-  # text.split.each do |word|
-  #   binding.pry
-  
+
   text.match(/^[A-Z].*[$.?!]/).to_s == text 
 
 end

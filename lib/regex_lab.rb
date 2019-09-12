@@ -38,10 +38,11 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   text.split.each do |word|
     binding.pry
     if word.match(/^[A-Z].*[$.!?]) == word
-      
       return true
+      
     end
   end
+  
   false
 end
 

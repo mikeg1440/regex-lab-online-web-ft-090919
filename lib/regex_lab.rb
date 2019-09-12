@@ -37,13 +37,9 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 
   # text.split.each do |word|
   #   binding.pry
-  if text.match(/^[A-Z].*[$.?!]/).to_s == word
-    return true
-    
-  end
-  # end
   
-  false
+  text.match(/^[A-Z].*[$.?!]/).to_s == word 
+
 end
 
 def valid_phone_number?(phone)

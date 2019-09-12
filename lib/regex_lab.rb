@@ -30,11 +30,6 @@ def words_five_letters_long(text)
     end
   end
   
-  
-  # text.scan(/.{5,}/)
-  
-  
-  
   binding.pry
   resp
 end

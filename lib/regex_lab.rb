@@ -24,8 +24,8 @@ def words_five_letters_long(text)
     # if word.scan(/[a-zA-Z]{5}/)[0] == word
     #   five_lettered << word
     #   # binding.pry
-      
     # end
+    
     word.scan(/[a-zA-Z]{5}/)[0] == word ? five_lettered << word : next
   end
   
